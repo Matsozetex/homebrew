@@ -18,24 +18,7 @@
 		],
         "dateAdded": 1570629500
 	},
-	"itemProperty":[
-		{
-			"abbreviation": "SUN",
-			"source": "GAG",
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Sundering",
-					"entries": [
-						"The weapon has qualities that crush or pierce armor, making it more effective against targets that employ such defenses. When you attack a target wearing armor components with the Hard property, or natural armor and its armor AC is 15 or more, you gain a bonus to the attack roll equal to the value in parenthesis."
-					]
-				}
-			]
-		},
-		{
-
-		}
-	],
+	
     
     "item":[
 		{
@@ -51,7 +34,6 @@
 			"source":"GAG",
 			"sword": true,
 			"property": [
-				"SUN",
 				"F",
 				"L"
 			]
