@@ -50,11 +50,23 @@
 			"dmgType":"P",
 			"source":"GGW",
 			"sword": true,
-			
 			"property": [
 				"SUN",
 				"F",
 				"L"
+			]
+		},
+		{
+			"name": "Shield",
+			"type": "S",
+			"rarity": "None",
+			"value": "10 gp",
+			"weight": 6,
+			"ac": 2,
+			"source": "PHB",
+			"page": 144,
+			"entries": [
+				"A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time."
 			]
 		}
 
