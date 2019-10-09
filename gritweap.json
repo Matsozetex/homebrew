@@ -56,23 +56,6 @@
 				"F",
 				"L"
 			]
-		},
-		{
-			"name": "Stiletto",
-			"type": "M",
-			"weapon": true,
-			"weaponCategory": "Simple",
-			"rarity": "None",
-			"value": 5,
-			"weight": 1,
-			"dmg1": "{@dice 1d3}",
-			"dmgType": "P",
-			"property": [
-				"SUN",
-				"F",
-				"L"
-			],
-			"source": "GGW"
 		}
 
     ]
