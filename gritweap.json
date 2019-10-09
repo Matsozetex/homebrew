@@ -1,0 +1,28 @@
+{
+    "_meta": {
+		"sources": [
+			{
+				"json": "GGW",
+				"abbreviation": "GaGW",
+				"full": "Weapons for Grit and Glory",
+				"authors": [
+					"TheApoApostolov"
+				],
+				"convertedBy": [
+					"Matsozetex"
+				],
+				"url": "https://github.com/TheGiddyLimit/homebrew",
+				"version": "0.1",
+				"targetSchema": "1.0.0"
+			}
+		],
+        "dateAdded": 1570629500
+    },
+    
+    "item":[
+        {
+            "name": "Falchion"
+        }
+    ]
+
+}
