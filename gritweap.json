@@ -21,7 +21,15 @@
     
     "item":[
         {
-            "name": "Falchion"
+			"name": "Falchion",
+			"type": "M",
+			"weapon": true,
+			"rarity": "None",
+			"value": "35",
+			"weight": 2,
+			"dmg1": "{@dice 2d4}",
+			"dmgType":"S",
+			"source":"GGW"
         }
     ]
 
