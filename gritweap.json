@@ -27,7 +27,7 @@
 			"weapon": true,
 			"weaponCategory": "Simple",
 			"rarity": "None",
-			"value": "5 sp",
+			"value": 500,
 			"weight": 1,
 			"dmg1": "{@dice 1d3}",
 			"dmgType":"P",
