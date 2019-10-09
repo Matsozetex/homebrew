@@ -29,7 +29,8 @@
 			"weight": 2,
 			"dmg1": "{@dice 2d4}",
 			"dmgType":"S",
-			"source":"GGW"
+			"source":"GGW",
+			"sword": true
         }
     ]
 
