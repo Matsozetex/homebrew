@@ -67,7 +67,7 @@
 				"H",
 				"SWE",
 				"2H",
-				"SEV"
+				"SEVS"
 			]
 		},
 		{
@@ -99,7 +99,7 @@
 			"source": "GAG",
 			"property": [
 				"F",
-				"SEV",
+				"SEVP",
 				"PAR"
 			]
 		},
@@ -225,13 +225,35 @@
 			}]
 		},
 		{
-			"abbreviation": "SEV",
+			"abbreviation": "SEVS",
 			"source": "GAG",
 			"entries": [{
 				"type": "entries",
 				"name": "Severing",
 				"entries": [
-					"The weapon is particularly potent in maximizing its unique damage type. When an attack roll with a Severing weapon exceeds the AC of the target by 10 or more, it will inflict an additional Severing effect based upon the type of damage dealt. A critical hit guarantees a Severing effect as well. Slashing weapons can inflict gaping wounds and profuse bleeding. If your attack's damage causes a Wound Risk, the target Wound Confirmation DC increases by +2. Objects, Constructs, and Elementals are immune to this effect. Bludgeoning weapons can hit with a singularly bone-shaking blow, stunning the target. If your attack's damage causes a Wound Risk, the target becomes Stunned until the end of its next turn. Piercing weapons can punch holes in defenses or otherwise leave a target more vulnerable. If your attack's damage causes a Wound Risk, it also lowers the target's AC by 2 until the end of its next turn."
+					"The weapon is particularly potent in maximizing its unique damage type. When an attack roll with a Severing weapon exceeds the AC of the target by 10 or more, it will inflict an additional Severing effect based upon the type of damage dealt. A critical hit guarantees a Severing effect as well. Slashing weapons can inflict gaping wounds and profuse bleeding. If your attack's damage causes a Wound Risk, the target Wound Confirmation DC increases by +2. Objects, Constructs, and Elementals are immune to this effect. "
+				]
+			}]
+		},
+		{
+			"abbreviation": "SEVP",
+			"source": "GAG",
+			"entries": [{
+				"type": "entries",
+				"name": "Severing",
+				"entries": [
+					"The weapon is particularly potent in maximizing its unique damage type. When an attack roll with a Severing weapon exceeds the AC of the target by 10 or more, it will inflict an additional Severing effect based upon the type of damage dealt. A critical hit guarantees a Severing effect as well. Piercing weapons can punch holes in defenses or otherwise leave a target more vulnerable. If your attack's damage causes a Wound Risk, it also lowers the target's AC by 2 until the end of its next turn."
+				]
+			}]
+		},
+		{
+			"abbreviation": "SEVB",
+			"source": "GAG",
+			"entries": [{
+				"type": "entries",
+				"name": "Severing",
+				"entries": [
+					"The weapon is particularly potent in maximizing its unique damage type. When an attack roll with a Severing weapon exceeds the AC of the target by 10 or more, it will inflict an additional Severing effect based upon the type of damage dealt. A critical hit guarantees a Severing effect as well. Bludgeoning weapons can hit with a singularly bone-shaking blow, stunning the target. If your attack's damage causes a Wound Risk, the target becomes Stunned until the end of its next turn."
 				]
 			}]
 		},
