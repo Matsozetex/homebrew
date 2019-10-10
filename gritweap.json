@@ -1,27 +1,24 @@
 {
-    "_meta": {
-		"sources": [
-			{
-				"json": "GAG",
-				"abbreviation": "WGaG",
-				"full": "Weapons for Grit and Glory",
-				"authors": [
-					"TheApoApostolov"
-				],
-				"convertedBy": [
-					"Matsozetex"
-				],
-				"url": "https://github.com/TheGiddyLimit/homebrew",
-				"version": "0.1",
-				"targetSchema": "1.0.0"
-			}
-		],
-        "dateAdded": 1570629500
+	"_meta": {
+		"sources": [{
+			"json": "GAG",
+			"abbreviation": "WGaG",
+			"full": "Weapons for Grit and Glory",
+			"authors": [
+				"TheApoApostolov"
+			],
+			"convertedBy": [
+				"Matsozetex"
+			],
+			"url": "https://github.com/TheGiddyLimit/homebrew",
+			"version": "0.1",
+			"targetSchema": "1.0.0"
+		}],
+		"dateAdded": 1570629500
 	},
-	
-    
-    "item":[
-		{
+
+
+	"item": [{
 			"name": "Stiletto",
 			"type": "M",
 			"weapon": true,
@@ -30,31 +27,249 @@
 			"value": 50,
 			"weight": 1,
 			"dmg1": "{@dice 1d3}",
-			"dmgType":"P",
-			"source":"GAG",
-			"sword": true,
+			"dmgType": "P",
+			"source": "GAG",
 			"property": [
 				"F",
 				"L",
-				"SUN"
+				"SUN1",
+				"SIL"
+			]
+		},
+		{
+			"name": "Broadsword",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Martial",
+			"rarity": "None",
+			"value": 100,
+			"weight": 4,
+			"dmg1": "{@dice 2d4}",
+			"dmgType": "S",
+			"source": "GAG",
+			"property": [
+				"STA",
+				"SWE"
+			]
+		},
+		{
+			"name": "Greatsword",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Martial",
+			"rarity": "None",
+			"value": 500,
+			"weight": 7,
+			"dmg1": "{@dice 2d6}",
+			"dmgType": "S",
+			"source": "GAG",
+			"property": [
+				"H",
+				"SWE",
+				"2H",
+				"SEV"
+			]
+		},
+		{
+			"name": "Shortsword",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Martial",
+			"rarity": "None",
+			"value": 100,
+			"weight": 2,
+			"dmg1": "{@dice 1d6}",
+			"dmgType": "P",
+			"source": "GAG",
+			"property": [
+				"F",
+				"L"
+			]
+		},
+		{
+			"name": "Rapier",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Martial",
+			"rarity": "None",
+			"value": 250,
+			"weight": 2,
+			"dmg1": "{@dice 1d8}",
+			"dmgType": "P",
+			"source": "GAG",
+			"property": [
+				"F",
+				"SEV",
+				"PAR"
+			]
+		},
+		{
+			"name": "Dagger",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Simple",
+			"rarity": "None",
+			"range": "20/60",
+			"value": 250,
+			"weight": 1,
+			"dmg1": "{@dice 1d8}",
+			"dmgType": "P",
+			"source": "GAG",
+			"property": [
+				"F",
+				"L",
+				"SIL",
+				"T",
+				"PRF"
+			]
+		},
+		{
+			"name": "Shortbow",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Simple",
+			"rarity": "None",
+			"range": "80/320",
+			"value": 250,
+			"weight": 2,
+			"dmg1": "{@dice 1d6}",
+			"dmgType": "P",
+			"source": "GAG",
+			"property": [
+				"A",
+				"2H"
+			]
+		},
+		{
+			"name": "Hatchet",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Simple",
+			"rarity": "None",
+			"range": "20/60",
+			"value": 200,
+			"weight": 1,
+			"dmg1": "{@dice 1d4}",
+			"dmgType": "S",
+			"source": "GAG",
+			"property": [
+				"L",
+				"T"
+			]
+		},
+		{
+			"name": "Falchion",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Martial",
+			"rarity": "None",
+			"range": "20/60",
+			"value": 180,
+			"weight": 5,
+			"dmg1": "{@dice 2d4}",
+			"dmgType": "P",
+			"source": "GAG",
+			"property": [
+				"H",
+				"DEA"
 			]
 		}
 
+
+
+
+
 	],
-	"itemProperty":[
-		{
-			"abbreviation": "SUN",
+	"itemProperty": [{
+			"abbreviation": "SUN1",
 			"source": "GAG",
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Sundering",
-					"entries": [
-						"The weapon has qualities that crush or pierce armor, making it more effective against targets that employ such defenses. When you attack a target wearing armor components with the Hard property, or natural armor and its armor AC is 15 or more, you gain a bonus to the attack roll equal to the value in parenthesis."
-					]
-				}
-			]
+			"entries": [{
+				"type": "entries",
+				"name": "Sundering(1)",
+				"entries": [
+					"The weapon has qualities that crush or pierce armor, making it more effective against targets that employ such defenses. When you attack a target wearing armor components with the Hard property, or natural armor and its armor AC is 15 or more, you gain a bonus to the attack roll equal to the value in parenthesis."
+				]
+			}]
+		},
+		{
+			"abbreviation": "SIL",
+			"source": "GAG",
+			"entries": [{
+				"type": "entries",
+				"name": "Silent",
+				"entries": [
+					"Silent weapons make no noise and allow you to use the Silent Takedown combat action."
+				]
+			}]
+		},
+		{
+			"abbreviation": "STA",
+			"source": "GAG",
+			"entries": [{
+				"type": "entries",
+				"name": "Stable",
+				"entries": [
+					"Weapons with the Stable property have a comfortable grip that prevents easy disarming. You have advantage on any saveor check you make to avoid being disarmed."
+				]
+			}]
+		},
+		{
+			"abbreviation": "SWE",
+			"source": "GAG",
+			"entries": [{
+				"type": "entries",
+				"name": "Sweeping",
+				"entries": [
+					"The weapon makes attacks in broad, sweeping motions. You must declare a Sweeping attack. If damage from a Sweeping attack reduces a creature to 0 hit points, you may deal the weapon dice in damage to another creature adjacent to you.If there are multiple walls, friendly characters size Mediumor larger, or other such obstructions adjacent to you, a Sweeping attack is made at disadvantage."
+				]
+			}]
+		},
+		{
+			"abbreviation": "SEV",
+			"source": "GAG",
+			"entries": [{
+				"type": "entries",
+				"name": "Severing",
+				"entries": [
+					"The weapon is particularly potent in maximizing its unique damage type. When an attack roll with a Severing weapon exceeds the AC of the target by 10 or more, it will inflict an additional Severing effect based upon the type of damage dealt. A critical hit guarantees a Severing effect as well. Slashing weapons can inflict gaping wounds and profuse bleeding. If your attack's damage causes a Wound Risk, the target Wound Confirmation DC increases by +2. Objects, Constructs, and Elementals are immune to this effect. Bludgeoning weapons can hit with a singularly bone-shaking blow, stunning the target. If your attack's damage causes a Wound Risk, the target becomes Stunned until the end of its next turn. Piercing weapons can punch holes in defenses or otherwise leave a target more vulnerable. If your attack's damage causes a Wound Risk, it also lowers the target's AC by 2 until the end of its next turn."
+				]
+			}]
+		},
+		{
+			"abbreviation": "PAR",
+			"source": "GAG",
+			"entries": [{
+				"type": "entries",
+				"name": "Parrying",
+				"entries": [
+					"The weapon has catching or deflecting feature, allowing it tobe used to parry incoming attacks. It can use Deflect combataction (see pg. 13) even if the weapon has the Light or Finesseproperties. However, if the weapon is not Light nor Finesse, you may also reroll one of the weapon dice once when using Deflect, and choose one of the results."
+				]
+			}]
+		},
+		{
+			"abbreviation": "PRF",
+			"source": "GAG",
+			"entries": [{
+				"type": "entries",
+				"name": "Prone Fighting",
+				"entries": [
+					"The weapon is able to be used just as effectively while laying on the ground or while standing. When you are prone and attack with this weapon, you do not suffer disadvantage."
+				]
+			}]
+		},
+		{
+			"abbreviation": "DEA",
+			"source": "GAG",
+			"entries": [{
+				"type": "entries",
+				"name": "Deadly",
+				"entries": [
+					"If a weapon with a Deadly property deals damage, you may reroll one of the weapon dice if it rolls a value of 1."
+				]
+			}]
 		}
+
+
 	]
 
 }
