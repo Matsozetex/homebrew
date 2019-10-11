@@ -1,5 +1,12 @@
-Weapons, Armor and Properties for the Grit and Glory system.
+Weapons for the Grit and Glory coversion for 5th Edition Dungeosn and Dragons.
 
-In this system, the conversion for currency is 1GP = 100SP and 1SP = 100CP. 
+This is simply a personal project, helping my DM, help their players with the new system. As his needs
+change, this will too.
 
-If you are using these prices in a normal 5e setting, just convert the prices to the next denomination (excluding electrum).
+Value is temporarily removed until 5etools can support alternate currency conversion systems.
+
+Grit and Glory uses a wound system, which affects some of the item properties in this content.
+
+Content is based on Grit and Glory v5.7:
+https://thetrove.net/Books/Dungeons%20&%20Dragons/3rd%20Party/5th%20Edition/Homebrew/Grit%20and%20Glory%20v5.pdf
+
