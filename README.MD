@@ -10,3 +10,4 @@ Grit and Glory uses a wound system, which affects some of the item properties in
 Content is based on Grit and Glory v5.7:
 https://thetrove.net/Books/Dungeons%20&%20Dragons/3rd%20Party/5th%20Edition/Homebrew/Grit%20and%20Glory%20v5.pdf
 
+Likely to change to 5.8 in the near future!

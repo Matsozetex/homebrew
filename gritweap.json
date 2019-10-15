@@ -214,6 +214,29 @@
 				"F",
 				"T"
 			]
+		},
+		{
+			"name": "Greatbow",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Simple",
+			"rarity": "None",
+			"range": "250/1000",
+			"weight": 4,
+			"dmg1": "{@dice 1d12}",
+			"dmgType": "P",
+			"source": "GAG",
+			"property": [
+				"A",
+				"2H",
+				"H",
+				"LIMM",
+				"REQS13",
+				"VOL",
+				"WOUP",
+				"SLO",
+				"BRU"
+			]
 		}
 	],
 	"itemProperty": [{
@@ -336,7 +359,74 @@
 					"The weapon is particularly adept at making the most of the advantageous situation, when an enemy is at your mercy. When the weapon is used to attack a prone creature in the beaten state, roll an additional weapon damage die on a hit.Also, Coup de Grace action (pg. 16) benefits from advantageon the attack roll with this weapon."
 				]
 			}]
+		},
+		{
+			"abbreviation": "LIMM",
+			"source": "GAG",
+			"entries": [{
+				"type": "entries",
+				"name": "Limit - Mounted",
+				"entries": [
+					"This weapon has a limit for its use. This weapon cannot be used while mounted."
+				]
+			}]
+		},
+		{
+			"abbreviation": "REQS13",
+			"source": "GAG",
+			"entries": [{
+				"type": "entries",
+				"name": "Strength (13)",
+				"entries": [
+					"This weapon has requires a strength score defined in the brackets."
+				]
+			}]
+		},
+		{
+			"abbreviation": "VOL",
+			"source": "GAG",
+			"entries": [{
+				"type": "entries",
+				"name": "Volley",
+				"entries": [
+				"Weapons with the Volley property are less effective at close distances. Your attacks against targets that are within 30 feet from you suffer disadvantage."
+				]
+			}]
+		},
+		{
+			"abbreviation": "WOUP",
+			"source": "GAG",
+			"entries": [{
+				"type": "entries",
+				"name": "Wounding - Piercing",
+				"entries": [
+					"The weapon is particularly potent in maximizing its unique damage type. When you cause an Open Wound (pg. 8) with this weapon, it will inflict an additional effect based upon the type of damage dealt. A critical hit guarantees the Wounding effect even if the attack doesn't cause an Open Wound. Piercing weapons can inflict gaping wounds and cause profuse bleeding. The target loses an extra 1 hp at the start of its turns, or extra 2 hp if caused by a critical hit. To stop the excessive bleeding, the Medicine check DC is raised to 15. Objects, Constructs, and Elementals are immune to this effect."
+				]
+			}]
+		},
+		{
+			"abbreviation": "SLO",
+			"source": "GAG",
+			"entries": [{
+				"type": "entries",
+				"name": "Slow",
+				"entries": [
+					"A Slow weapon is massive and cumbersome, and requires great strength to wield and multiattack with. The weapon can make only one attack per turn if wielded by a character with a Strength score of 14 or less. It can make up to one extra attack if wielded by a character with a Strength score of 15 or 16, or up to two extra attacks if wielded by a character with Strength score 17 or 18. It can make any number of attacks if wielded by a character with a Strength score of 19 or more."
+				]
+			}]
+		},
+		{
+			"abbreviation": "BRU",
+			"source": "GAG",
+			"entries": [{
+				"type": "entries",
+				"name": "Brutal",
+				"entries": [
+					"Weapons with the Brutal property deal devastating critical hits. When you score a critical hit, you add one additional weapon die to the damage total."
+				]
+			}]
 		}
+		
 	]
 
 }
