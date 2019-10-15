@@ -219,7 +219,7 @@
 			"name": "Greatbow",
 			"type": "R",
 			"weapon": true,
-			"weaponCategory": "Simple",
+			"weaponCategory": "Martial",
 			"rarity": "None",
 			"range": "250/1000",
 			"weight": 4,
