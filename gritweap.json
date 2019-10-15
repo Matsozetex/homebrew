@@ -96,7 +96,7 @@
 			"source": "GAG",
 			"property": [
 				"F",
-				"CRIT",
+				"CRT",
 				"PAR"
 			]
 		},
@@ -121,7 +121,7 @@
 			"name": "Shortbow",
 			"type": "R",
 			"weapon": true,
-			"weaponCategory": "Simple",
+			"weaponCategory": "Martial",
 			"rarity": "None",
 			"range": "80/320",
 			"weight": 2,
