@@ -262,6 +262,25 @@
 				"NONL",
 				"DEF1"
 			]
+		},
+		{
+			"name": "Recurve Longbow",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Martial",
+			"rarity": "None",
+			"range": "150/600",
+			"weight": 2,
+			"dmg1": "{@dice 1d8}",
+			"dmgType": "P",
+			"source": "GAG",
+			"property": [
+				"BRU",
+				"LIMM",
+				"2H",
+				"REQS9",
+				"A"
+			]
 		}
 	
 	],
