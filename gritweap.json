@@ -164,6 +164,56 @@
 				"H",
 				"DEA"
 			]
+		},
+		{
+			"name": "Short Spear",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Simple",
+			"rarity": "None",
+			"range": "10/60",
+			"weight": 3,
+			"dmg1": "{@dice 1d6}",
+			"dmg2": "{@dice 1d8}",
+			"dmgType": "P",
+			"source": "GAG",
+			"property": [
+				"T",
+				"V",
+				"FIN"
+			]
+		},
+		{
+			"name": "Scimitar",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Martial",
+			"rarity": "None",
+			"weight": 3,
+			"dmg1": "{@dice 1d6}",
+			"dmgType": "S",
+			"source": "GAG",
+			"property": [
+				"F",
+				"SEVS",
+				"L"
+			]
+		},
+		{
+			"name": "Boomerang",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Martial",
+			"rarity": "None",
+			"range": "20/60",
+			"weight": 2,
+			"dmg1": "{@dice 1d4}",
+			"dmgType": "B",
+			"source": "GAG",
+			"property": [
+				"F",
+				"T"
+			]
 		}
 
 
@@ -278,6 +328,17 @@
 				"name": "Deadly",
 				"entries": [
 					"If a weapon with a Deadly property deals damage, you may reroll one of the weapon dice if it rolls a value of 1."
+				]
+			}]
+		},
+		{
+			"abbreviation": "FIN",
+			"source": "GAG",
+			"entries": [{
+				"type": "entries",
+				"name": "Finisher",
+				"entries": [
+					"The weapon is particularly adept at making the most of the advantageous situation, when an enemy is at your mercy. When the weapon is used to attack a prone creature in the beaten state, roll an additional weapon damage die on a hit.Also, Coup de Grace action (pg. 16) benefits from advantageon the attack roll with this weapon."
 				]
 			}]
 		}
