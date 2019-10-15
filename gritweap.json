@@ -244,7 +244,26 @@
 				"SLO",
 				"BRU"
 			]
+		},
+		{
+			"name": "Quarterstaff",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Simple",
+			"rarity": "None",
+			"weight": 3,
+			"dmg1": "{@dice 1d6}",
+			"dmg2": "{@dice 2d4",
+			"dmgType": "B",
+			"source": "GAG",
+			"property": [
+				"F",
+				"V",
+				"NONL",
+				"DEF1"
+			]
 		}
+	
 	],
 	"itemProperty": [{
 			"abbreviation": "SUN1",
@@ -432,7 +451,31 @@
 					"The weapon is particularly adept at making the most of the advantageous situation when an enemy is unarmored. When you attack a target that is unarmoured or with an armor AC of 12 or less, you gain a bonus to the attack roll equal to the value written in parenthesis. Creatures with natural armor or an armor AC of 13 or higher (including spells such as mage armor) are immune to this property."
 				]
 			}]
+		},
+		{
+			"abbreviation": "NONL",
+			"source": "GAG",
+			"entries": [{
+				"type": "entries",
+				"name": "Nonlethal",
+				"entries": [
+					"The weapon is designed to incapacitate, or is otherwise capable of delivering a hit that does not kill the target. Weapons with this property still deal their full damage when dealing nonlethal damage."
+				]
+			}]
+		},
+		{
+			"abbreviation": "DEF1",
+			"source": "GAG",
+			"entries": [{
+				"type": "entries",
+				"name": "Defensive(+1 AC)",
+				"entries": [
+					"While wielding this weapon, you gain an AC bonus against melee attacks. Versatile and two-handed weapons grant this bonus to AC only if they are held in two hands."
+				]
+			}]
 		}
+
+
 
 		
 		
