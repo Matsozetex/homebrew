@@ -25,14 +25,14 @@
 			"weaponCategory": "Simple",
 			"rarity": "None",
 			"weight": 1,
-			"dmg1": "{@dice 1d3}",
+			"dmg1": "{@dice 1d4}",
 			"dmgType": "P",
 			"source": "GAG",
 			"property": [
 				"F",
 				"L",
-				"SUN1",
-				"SIL"
+				"COCL",
+				"BRU"
 			]
 		},
 		{
@@ -46,8 +46,7 @@
 			"dmgType": "S",
 			"source": "GAG",
 			"property": [
-				"STA",
-				"SWE"
+				"PAR"
 			]
 		},
 		{
@@ -57,14 +56,15 @@
 			"weaponCategory": "Martial",
 			"rarity": "None",
 			"weight": 7,
-			"dmg1": "{@dice 2d6}",
+			"dmg1": "{@dice 3d4}",
 			"dmgType": "S",
 			"source": "GAG",
 			"property": [
 				"H",
-				"SWE",
-				"2H",
-				"SEVS"
+				"PAR",
+				"SLO",
+				"SEVS",
+				"2H"
 			]
 		},
 		{
@@ -79,7 +79,9 @@
 			"source": "GAG",
 			"property": [
 				"F",
-				"L"
+				"L",
+				"PAR",
+				"OPO"
 			]
 		},
 		{
@@ -94,7 +96,7 @@
 			"source": "GAG",
 			"property": [
 				"F",
-				"SEVP",
+				"CRIT",
 				"PAR"
 			]
 		},
@@ -112,9 +114,7 @@
 			"property": [
 				"F",
 				"L",
-				"SIL",
-				"T",
-				"PRF"
+				"T"
 			]
 		},
 		{
@@ -129,8 +129,9 @@
 			"dmgType": "P",
 			"source": "GAG",
 			"property": [
-				"A",
-				"2H"
+				"BRU",
+				"2H",
+				"REQS9"
 			]
 		},
 		{
@@ -146,7 +147,8 @@
 			"source": "GAG",
 			"property": [
 				"L",
-				"T"
+				"T",
+				"F"
 			]
 		},
 		{
@@ -156,17 +158,17 @@
 			"weaponCategory": "Martial",
 			"rarity": "None",
 			"range": "20/60",
-			"weight": 5,
+			"weight": 8,
 			"dmg1": "{@dice 2d4}",
-			"dmgType": "P",
+			"dmgType": "S",
 			"source": "GAG",
 			"property": [
-				"H",
-				"DEA"
+				"PAR",
+				"BRU"
 			]
 		},
 		{
-			"name": "Short Spear",
+			"name": "Spear",
 			"type": "M",
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -180,7 +182,10 @@
 			"property": [
 				"T",
 				"V",
-				"FIN"
+				"F",
+				"MOS",
+				"THR",
+				"SHR1"
 			]
 		},
 		{
@@ -195,8 +200,9 @@
 			"source": "GAG",
 			"property": [
 				"F",
-				"SEVS",
-				"L"
+				"PAR",
+				"L",
+				"MOS"
 			]
 		},
 		{
@@ -251,24 +257,13 @@
 			}]
 		},
 		{
-			"abbreviation": "SIL",
+			"abbreviation": "COCL",
 			"source": "GAG",
 			"entries": [{
 				"type": "entries",
-				"name": "Silent",
+				"name": "Concealed",
 				"entries": [
-					"Silent weapons make no noise and allow you to use the Silent Takedown combat action."
-				]
-			}]
-		},
-		{
-			"abbreviation": "STA",
-			"source": "GAG",
-			"entries": [{
-				"type": "entries",
-				"name": "Stable",
-				"entries": [
-					"Weapons with the Stable property have a comfortable grip that prevents easy disarming. You have advantage on any saveor check you make to avoid being disarmed."
+					"Weapons with the Concealed property can be hidden from plain sight until wielded or used. You can use your Dexterity (Sleight of Hand) skill to hide the weapon. If the weapon does not have the Light property, anyone who uses Wisdom (Perception) check to detect the weapon may benefit from Passive Perception."
 				]
 			}]
 		},
@@ -284,39 +279,6 @@
 			}]
 		},
 		{
-			"abbreviation": "SEVS",
-			"source": "GAG",
-			"entries": [{
-				"type": "entries",
-				"name": "Severing - Slashing",
-				"entries": [
-					"The weapon is particularly potent in maximizing its unique damage type. When an attack roll with a Severing weapon exceeds the AC of the target by 10 or more, it will inflict an additional Severing effect based upon the type of damage dealt. A critical hit guarantees a Severing effect as well. Slashing weapons can inflict gaping wounds and profuse bleeding. If your attack's damage causes a Wound Risk, the target Wound Confirmation DC increases by +2. Objects, Constructs, and Elementals are immune to this effect. "
-				]
-			}]
-		},
-		{
-			"abbreviation": "SEVP",
-			"source": "GAG",
-			"entries": [{
-				"type": "entries",
-				"name": "Severing - Piercing",
-				"entries": [
-					"The weapon is particularly potent in maximizing its unique damage type. When an attack roll with a Severing weapon exceeds the AC of the target by 10 or more, it will inflict an additional Severing effect based upon the type of damage dealt. A critical hit guarantees a Severing effect as well. Piercing weapons can punch holes in defenses or otherwise leave a target more vulnerable. If your attack's damage causes a Wound Risk, it also lowers the target's AC by 2 until the end of its next turn."
-				]
-			}]
-		},
-		{
-			"abbreviation": "SEVB",
-			"source": "GAG",
-			"entries": [{
-				"type": "entries",
-				"name": "Severing - Bludgeoning",
-				"entries": [
-					"The weapon is particularly potent in maximizing its unique damage type. When an attack roll with a Severing weapon exceeds the AC of the target by 10 or more, it will inflict an additional Severing effect based upon the type of damage dealt. A critical hit guarantees a Severing effect as well. Bludgeoning weapons can hit with a singularly bone-shaking blow, stunning the target. If your attack's damage causes a Wound Risk, the target becomes Stunned until the end of its next turn."
-				]
-			}]
-		},
-		{
 			"abbreviation": "PAR",
 			"source": "GAG",
 			"entries": [{
@@ -324,39 +286,6 @@
 				"name": "Parrying",
 				"entries": [
 					"The weapon has catching or deflecting feature, allowing it tobe used to parry incoming attacks. It can use Deflect combataction (see pg. 13) even if the weapon has the Light or Finesseproperties. However, if the weapon is not Light nor Finesse, you may also reroll one of the weapon dice once when using Deflect, and choose one of the results."
-				]
-			}]
-		},
-		{
-			"abbreviation": "PRF",
-			"source": "GAG",
-			"entries": [{
-				"type": "entries",
-				"name": "Prone Fighting",
-				"entries": [
-					"The weapon is able to be used just as effectively while laying on the ground or while standing. When you are prone and attack with this weapon, you do not suffer disadvantage."
-				]
-			}]
-		},
-		{
-			"abbreviation": "DEA",
-			"source": "GAG",
-			"entries": [{
-				"type": "entries",
-				"name": "Deadly",
-				"entries": [
-					"If a weapon with a Deadly property deals damage, you may reroll one of the weapon dice if it rolls a value of 1."
-				]
-			}]
-		},
-		{
-			"abbreviation": "FIN",
-			"source": "GAG",
-			"entries": [{
-				"type": "entries",
-				"name": "Finisher",
-				"entries": [
-					"The weapon is particularly adept at making the most of the advantageous situation, when an enemy is at your mercy. When the weapon is used to attack a prone creature in the beaten state, roll an additional weapon damage die on a hit.Also, Coup de Grace action (pg. 16) benefits from advantageon the attack roll with this weapon."
 				]
 			}]
 		},
@@ -377,6 +306,17 @@
 			"entries": [{
 				"type": "entries",
 				"name": "Strength (13)",
+				"entries": [
+					"This weapon has requires a strength score defined in the brackets."
+				]
+			}]
+		},
+		{
+			"abbreviation": "REQS9",
+			"source": "GAG",
+			"entries": [{
+				"type": "entries",
+				"name": "Strength (9)",
 				"entries": [
 					"This weapon has requires a strength score defined in the brackets."
 				]
@@ -405,6 +345,17 @@
 			}]
 		},
 		{
+			"abbreviation": "WOUS",
+			"source": "GAG",
+			"entries": [{
+				"type": "entries",
+				"name": "Wounding - Slashing",
+				"entries": [
+					"The weapon is particularly potent in maximizing its unique damage type. When you cause an Open Wound (pg. 8) with this weapon, it will inflict an additional effect based upon the type of damage dealt. A critical hit guarantees the Wounding effect even if the attack doesn't cause an Open Wound. Slashing weapons can tear through defencses or otherwise leave a target more vulnerable. The target's AC is lowered by 2 until the end of its next turn."
+				]
+			}]
+		},
+		{
 			"abbreviation": "SLO",
 			"source": "GAG",
 			"entries": [{
@@ -425,7 +376,64 @@
 					"Weapons with the Brutal property deal devastating critical hits. When you score a critical hit, you add one additional weapon die to the damage total."
 				]
 			}]
+		},
+		{
+			"abbreviation": "OPO",
+			"source": "GAG",
+			"entries": [{
+				"type": "entries",
+				"name": "Opportunistic",
+				"entries": [
+					"This weapon is great for striking back at opponents who threaten you. When using your reaction to make an opportunity attack with this weapon, you benefit from advantage to the attack roll."
+				]
+			}]
+		},
+		{
+			"abbreviation": "CRT",
+			"source": "GAG",
+			"entries": [{
+				"type": "entries",
+				"name": "Critical",
+				"entries": [
+					"Upon a critical hit, this weapon can produce a devastating blow. When your attack is a critical hit, instead of rolling the weapon dice again add the maximum amount of damage that the dice could roll."
+				]
+			}]
+		},
+		{
+			"abbreviation": "MOS",
+			"source": "GAG",
+			"entries": [{
+				"type": "entries",
+				"name": "Mounted Strike",
+				"entries": [
+					"When you are riding upon a creature capable of movement at a speed 40 feet or faster, you can use the momentum of your mount to deal one powerful strike at a target that is not prone or smaller than you. If the weapon also has reach, being prone or size differences doesn't prevent your mounter strike. You must command your mount to Dash in a straight line through the position of your target. When you enter reach, you can spend one of your attacks to make a special melee attack. If it hits, the target suffers vulnerability to the attack damage. You can then continue the movement of your mount and you do not provoke an opportunity attack if you leave the reach of your target unless your special melee attack missed."
+				]
+			}]
+		},
+		{
+			"abbreviation": "THR",
+			"source": "GAG",
+			"entries": [{
+				"type": "entries",
+				"name": "Threatening",
+				"entries": [
+					"You can spend your reaction to perform an opportunity attack against any opponent that enters your weapon's reach after moving 10 feet or further. If the opportunity attack is against a mounted target, it or its mount has vulnerability to the damage from that attack."
+				]
+			}]
+		},
+		{
+			"abbreviation": "SHR1",
+			"source": "GAG",
+			"entries": [{
+				"type": "entries",
+				"name": "Sharp(1)",
+				"entries": [
+					"The weapon is particularly adept at making the most of the advantageous situation when an enemy is unarmored. When you attack a target that is unarmoured or with an armor AC of 12 or less, you gain a bonus to the attack roll equal to the value written in parenthesis. Creatures with natural armor or an armor AC of 13 or higher (including spells such as mage armor) are immune to this property."
+				]
+			}]
 		}
+
+		
 		
 	]
 
