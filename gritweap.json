@@ -50,6 +50,22 @@
 			]
 		},
 		{
+			"name": "Bastard Sword",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Martial",
+			"rarity": "None",
+			"weight": 6,
+			"dmg1": "{@dice 2d4}",
+			"dmg2" : "{@dice 1d10}",
+			"dmgType": "S",
+			"source": "GAG",
+			"property": [
+				"PAR",
+				"V"
+			]
+		},
+		{
 			"name": "Greatsword",
 			"type": "M",
 			"weapon": true,
