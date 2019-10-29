@@ -36,7 +36,7 @@
 			]
 		},
 		{
-			"name": "Broadsword",
+			"name": "Broad Sword",
 			"type": "M",
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -66,7 +66,7 @@
 			]
 		},
 		{
-			"name": "Greatsword",
+			"name": "Great Sword",
 			"type": "M",
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -84,7 +84,7 @@
 			]
 		},
 		{
-			"name": "Shortsword",
+			"name": "Short Sword",
 			"type": "M",
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -134,7 +134,7 @@
 			]
 		},
 		{
-			"name": "Shortbow",
+			"name": "Short Bow",
 			"type": "R",
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -239,7 +239,7 @@
 			]
 		},
 		{
-			"name": "Greatbow",
+			"name": "Great Bow",
 			"type": "R",
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -262,7 +262,7 @@
 			]
 		},
 		{
-			"name": "Quarterstaff",
+			"name": "Quarter Staff",
 			"type": "M",
 			"weapon": true,
 			"weaponCategory": "Simple",
