@@ -610,7 +610,7 @@
 				"type": "entries",
 				"name": "Caliber (2)",
 				"entries": [
-					"Ranged weapons with the Caliber property deal additional damage when you shoot from an advantageous position. The following conditions allow you to add extra damage dice of the same damage type up to the value shown in parenthesis. If your target is within 15 feet of you, the attack deals 1 additional damage die For each 3 points by which you beat the target's AC, the attack deals 1 additional damage die."
+					"Ranged weapons with the Caliber property deal additional damage dies when you make a critical hit equal to the value in parenthesis."
 				]
 			}]
 		}
