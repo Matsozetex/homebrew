@@ -325,7 +325,9 @@
 			"source": "GAG",
 			"property": [
 				"2H",
-				"LD9"
+				"LD9",
+				"MIS1",
+				"VEL"
 			]
 		},
 		{
@@ -341,7 +343,9 @@
 			"source": "GAG",
 			"property": [
 				"2H",
-				"LD9"
+				"LD9",
+				"MIS1",
+				"VEL"
 			]
 		}
 	],
@@ -350,7 +354,7 @@
 			"source": "GAG",
 			"entries": [{
 				"type": "entries",
-				"name": "Sundering(1)",
+				"name": "Sundering (1)",
 				"entries": [
 					"The weapon has qualities that crush or pierce armor, making it more effective against targets that employ such defenses. When you attack a target wearing armor components with the Hard property, or natural armor and its armor AC is 15 or more, you gain a bonus to the attack roll equal to the value in parenthesis."
 				]
@@ -526,7 +530,7 @@
 			"source": "GAG",
 			"entries": [{
 				"type": "entries",
-				"name": "Sharp(1)",
+				"name": "Sharp (1)",
 				"entries": [
 					"The weapon is particularly adept at making the most of the advantageous situation when an enemy is unarmored. When you attack a target that is unarmoured or with an armor AC of 12 or less, you gain a bonus to the attack roll equal to the value written in parenthesis. Creatures with natural armor or an armor AC of 13 or higher (including spells such as mage armor) are immune to this property."
 				]
@@ -548,7 +552,7 @@
 			"source": "GAG",
 			"entries": [{
 				"type": "entries",
-				"name": "Defensive(+1 AC)",
+				"name": "Defensive (+1 AC)",
 				"entries": [
 					"While wielding this weapon, you gain an AC bonus against melee attacks. Versatile and two-handed weapons grant this bonus to AC only if they are held in two hands."
 				]
@@ -562,6 +566,28 @@
 				"name": "Loading (9)",
 				"entries": [
 					"Because of the time required to load this weapon, you can fire only one piece of ammunition from it when you use an action, bonus action, or reaction to fire it, regardless of the number of attacks you can normally make. Some weapons take longer to reload and you must spend a number of attacks to reload equal to the value in parenthesis."
+				]
+			}]
+		},
+		{
+			"abbreviation": "VEL",
+			"source": "GAG",
+			"entries": [{
+				"type": "entries",
+				"name": "Velocity",
+				"entries": [
+					"Advanced firearms shoot projectiles at a higher velocity than all other ranged weapons. While causing less bleeding than arrows, bullets deal more trauma and are very effective at killing quickly. When rolling for damage, roll one additional weapon die then remove the die with the lowest result. When using weapons with the Velocity property the target does not benefit from any AC bonus from armor components with the Hard property. "
+				]
+			}]
+		},
+		{
+			"abbreviation": "MIS1",
+			"source": "GAG",
+			"entries": [{
+				"type": "entries",
+				"name": "Misfire (1)",
+				"entries": [
+					"Whenever you make an attack roll with a ranged weapon with the Misfire property and the attack roll is equal to or lower than the weapon’s Misfire value, the weapon misfires. The attack misses, and the weapon cannot be used again until you spend an action to try and clean or repair it. To repair a firearm, you must make a successful Tinker’s Tools check (DC equal to 8 + Misfire score). If your check fails, the weapon is unusable until the end of combat and may need to be mended out of combat at a quarter of the cost of the firearm (DM's discretion). Creatures who use a firearm without being proficient increase the weapon’s Misfire score by 1."
 				]
 			}]
 		}
