@@ -318,34 +318,35 @@
 			"weapon": true,
 			"weaponCategory": "Martial",
 			"rarity": "None",
-			"range": "200/800",
+			"range": "150/500",
 			"weight": 10,
 			"dmg1": "{@dice 2d8}",
 			"dmgType": "P",
 			"source": "GAG",
 			"property": [
 				"2H",
-				"LD9",
-				"MIS1",
+				"LD2",
+				"MIS2",
 				"VEL"
 			]
 		},
 		{
-			"name": "Arquebus",
+			"name": "Flintlock Musket",
 			"type": "R",
 			"weapon": true,
 			"weaponCategory": "Martial",
 			"rarity": "None",
-			"range": "200/800",
+			"range": "150/500",
 			"weight": 10,
 			"dmg1": "{@dice 2d10}",
 			"dmgType": "P",
 			"source": "GAG",
 			"property": [
 				"2H",
-				"LD9",
+				"LD2",
 				"MIS1",
-				"VEL"
+				"VEL",
+				"CAL2"
 			]
 		}
 	],
@@ -559,11 +560,11 @@
 			}]
 		},
 		{
-			"abbreviation": "LD9",
+			"abbreviation": "LD2",
 			"source": "GAG",
 			"entries": [{
 				"type": "entries",
-				"name": "Loading (9)",
+				"name": "Loading (2)",
 				"entries": [
 					"Because of the time required to load this weapon, you can fire only one piece of ammunition from it when you use an action, bonus action, or reaction to fire it, regardless of the number of attacks you can normally make. Some weapons take longer to reload and you must spend a number of attacks to reload equal to the value in parenthesis."
 				]
@@ -590,12 +591,29 @@
 					"Whenever you make an attack roll with a ranged weapon with the Misfire property and the attack roll is equal to or lower than the weapon’s Misfire value, the weapon misfires. The attack misses, and the weapon cannot be used again until you spend an action to try and clean or repair it. To repair a firearm, you must make a successful Tinker’s Tools check (DC equal to 8 + Misfire score). If your check fails, the weapon is unusable until the end of combat and may need to be mended out of combat at a quarter of the cost of the firearm (DM's discretion). Creatures who use a firearm without being proficient increase the weapon’s Misfire score by 1."
 				]
 			}]
+		},
+		{
+			"abbreviation": "MIS2",
+			"source": "GAG",
+			"entries": [{
+				"type": "entries",
+				"name": "Misfire (2)",
+				"entries": [
+					"Whenever you make an attack roll with a ranged weapon with the Misfire property and the attack roll is equal to or lower than the weapon’s Misfire value, the weapon misfires. The attack misses, and the weapon cannot be used again until you spend an action to try and clean or repair it. To repair a firearm, you must make a successful Tinker’s Tools check (DC equal to 8 + Misfire score). If your check fails, the weapon is unusable until the end of combat and may need to be mended out of combat at a quarter of the cost of the firearm (DM's discretion). Creatures who use a firearm without being proficient increase the weapon’s Misfire score by 1."
+				]
+			}]
+		},
+		{
+			"abbreviation": "CAL2",
+			"source": "GAG",
+			"entries": [{
+				"type": "entries",
+				"name": "Caliber (2)",
+				"entries": [
+					"Ranged weapons with the Caliber property deal additional damage when you shoot from an advantageous position. The following conditions allow you to add extra damage dice of the same damage type up to the value shown in parenthesis. If your target is within 15 feet of you, the attack deals 1 additional damage die For each 3 points by which you beat the target's AC, the attack deals 1 additional damage die."
+				]
+			}]
 		}
-
-
-
-
-
 	]
 
 }
