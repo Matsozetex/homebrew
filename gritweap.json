@@ -281,8 +281,22 @@
 				"REQS9",
 				"A"
 			]
+		},
+		{
+			"name": "Wooden Stake",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Simple",
+			"rarity": "None",
+			"dmg1": "{@dice 1d4}",
+			"dmgType": "P",
+			"source": "GAG",
+			"property": [
+				"F",
+				"L"
+			]
 		}
-	
+
 	],
 	"itemProperty": [{
 			"abbreviation": "SUN1",
@@ -368,7 +382,7 @@
 				"type": "entries",
 				"name": "Volley",
 				"entries": [
-				"Weapons with the Volley property are less effective at close distances. Your attacks against targets that are within 30 feet from you suffer disadvantage."
+					"Weapons with the Volley property are less effective at close distances. Your attacks against targets that are within 30 feet from you suffer disadvantage."
 				]
 			}]
 		},
@@ -496,8 +510,8 @@
 
 
 
-		
-		
+
+
 	]
 
 }
