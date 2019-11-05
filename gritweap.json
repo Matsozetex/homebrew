@@ -124,7 +124,7 @@
 			"rarity": "None",
 			"range": "20/60",
 			"weight": 1,
-			"dmg1": "{@dice 1d8}",
+			"dmg1": "{@dice 1d4}",
 			"dmgType": "P",
 			"source": "GAG",
 			"property": [
@@ -357,7 +357,7 @@
 			"rarity": "None",
 			"range": "150/500",
 			"weight": 10,
-			"dmg1": "{@dice 2d10}",
+			"dmg1": "{@dice 2d12}",
 			"dmgType": "P",
 			"source": "GAG",
 			"property": [
@@ -366,6 +366,22 @@
 				"MIS1",
 				"VEL",
 				"CAL2"
+			]
+		},
+		{
+			"name": "Breachloading Carbine",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Martial",
+			"rarity": "None",
+			"range": "75/750",
+			"weight": 9,
+			"dmg1": "{@dice 2d10}",
+			"dmgType": "P",
+			"source": "GAG",
+			"property": [
+				"2H",
+				"LD1"
 			]
 		}
 	],
@@ -409,7 +425,7 @@
 				"type": "entries",
 				"name": "Parrying",
 				"entries": [
-					"The weapon has catching or deflecting feature, allowing it tobe used to parry incoming attacks. It can use Deflect combataction (see pg. 13) even if the weapon has the Light or Finesse properties. However, if the weapon is not Light nor Finesse, you may also reroll one of the weapon dice once when using Deflect, and choose one of the results."
+					"The weapon has catching or deflecting feature, allowing it tobe used to parry incoming attacks. It can use Deflect combat action (see pg. 13) even if the weapon has the Light or Finesse properties. However, if the weapon is not Light nor Finesse, you may also reroll one of the weapon dice once when using Deflect, and choose one of the results."
 				]
 			}]
 		},
@@ -575,6 +591,17 @@
 				"name": "Defensive (+1 AC)",
 				"entries": [
 					"While wielding this weapon, you gain an AC bonus against melee attacks. Versatile and two-handed weapons grant this bonus to AC only if they are held in two hands."
+				]
+			}]
+		},
+		{
+			"abbreviation": "LD1",
+			"source": "GAG",
+			"entries": [{
+				"type": "entries",
+				"name": "Loading (1)",
+				"entries": [
+					"Because of the time required to load this weapon, you can fire only one piece of ammunition from it when you use an action, bonus action, or reaction to fire it, regardless of the number of attacks you can normally make. Some weapons take longer to reload and you must spend a number of attacks to reload equal to the value in parenthesis."
 				]
 			}]
 		},
