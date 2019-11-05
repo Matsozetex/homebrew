@@ -61,7 +61,8 @@
 			"source": "GAG",
 			"property": [
 				"PAR",
-				"2H"
+				"2H",
+				"DMS"
 			]
 		},
 		{
@@ -88,14 +89,15 @@
 			"rarity": "None",
 			"weight": 6,
 			"dmg1": "{@dice 3d4}",
-			"dmgType": "S",
+			"dmgType": "P",
 			"source": "GAG",
 			"property": [
 				"H",
 				"PAR",
 				"SLO",
 				"WOUS",
-				"2H"
+				"2H",
+				"DMS"
 			]
 		},
 		{
@@ -676,7 +678,41 @@
 					"Ranged weapons with the Caliber property deal additional damage dies when you make a critical hit equal to the value in parenthesis."
 				]
 			}]
+		},
+		{
+			"abbreviation": "DMP",
+			"source": "GAG",
+			"entries": [{
+				"type": "entries",
+				"name": "Damage - Piercing",
+				"entries": [
+					"This weapon may do piercing damage if you wish."
+				]
+			}]
+		},
+		{
+			"abbreviation": "DMS",
+			"source": "GAG",
+			"entries": [{
+				"type": "entries",
+				"name": "Damage - Slashing",
+				"entries": [
+					"This weapon may do slashing damage if you wish."
+				]
+			}]
+		},
+		{
+			"abbreviation": "DMB",
+			"source": "GAG",
+			"entries": [{
+				"type": "entries",
+				"name": "Damage - Bludgeoning",
+				"entries": [
+					"This weapon may do bludgeoning damage if you wish."
+				]
+			}]
 		}
+
 	]
 
 }
