@@ -676,17 +676,6 @@
 					"Ranged weapons with the Caliber property deal additional damage dies when you make a critical hit equal to the value in parenthesis."
 				]
 			}]
-		},
-		{
-			"abbreviation": "DEF1",
-			"source": "GAG",
-			"entries": [{
-				"type": "entries",
-				"name": "Defensive (1)",
-				"entries": [
-					"While wielding this weapon, you gain an AC bonus against melee attacks. Versatile and two-handed weapons grant this bonus to AC only if they are held in two hands."
-				]
-			}]
 		}
 	]
 
