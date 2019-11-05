@@ -50,6 +50,21 @@
 			]
 		},
 		{
+			"name": "Long Sword",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Martial",
+			"rarity": "None",
+			"weight": 3,
+			"dmg1": "{@dice 1d10}",
+			"dmgType": "P",
+			"source": "GAG",
+			"property": [
+				"PAR",
+				"2H"
+			]
+		},
+		{
 			"name": "Bastard Sword",
 			"type": "M",
 			"weapon": true,
@@ -71,7 +86,7 @@
 			"weapon": true,
 			"weaponCategory": "Martial",
 			"rarity": "None",
-			"weight": 7,
+			"weight": 6,
 			"dmg1": "{@dice 3d4}",
 			"dmgType": "S",
 			"source": "GAG",
