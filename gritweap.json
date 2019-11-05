@@ -331,6 +331,25 @@
 			]
 		},
 		{
+			"name": "Epee",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Martial",
+			"rarity": "None",
+			"weight": 2,
+			"dmg1": "{@dice 1d8}",
+			"dmgType": "P",
+			"source": "GAG",
+			"property": [
+				"F",
+				"DEF1",
+				"PAR"
+			],
+			"entries": [
+				"This weapon is explicitly a dexterity weapon. -Jorim"
+			]
+		},
+		{
 			"name": "Flintlock Musket",
 			"type": "R",
 			"weapon": true,
@@ -611,6 +630,17 @@
 				"name": "Caliber (2)",
 				"entries": [
 					"Ranged weapons with the Caliber property deal additional damage dies when you make a critical hit equal to the value in parenthesis."
+				]
+			}]
+		},
+		{
+			"abbreviation": "DEF1",
+			"source": "GAG",
+			"entries": [{
+				"type": "entries",
+				"name": "Defensive (1)",
+				"entries": [
+					"While wielding this weapon, you gain an AC bonus against melee attacks. Versatile and two-handed weapons grant this bonus to AC only if they are held in two hands."
 				]
 			}]
 		}
