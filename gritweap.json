@@ -381,7 +381,9 @@
 			"source": "GAG",
 			"property": [
 				"2H",
-				"LD1"
+				"LD1",
+				"MIS1",
+				"VEL"
 			]
 		}
 	],
